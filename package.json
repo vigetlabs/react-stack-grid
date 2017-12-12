@@ -4,6 +4,7 @@
   "description": "Pinterest like layout components for React.js",
   "main": "lib/index.js",
   "scripts": {
+    "postinstall": "npm run build",
     "start": "npm run docs",
     "clean": "rimraf lib",
     "build": "babel src/ -d lib/ --ignore \"**/__tests__/*\"",
